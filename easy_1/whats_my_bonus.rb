@@ -13,8 +13,7 @@ def calculate_bonus(salary, decision)
     salary / 2
   else
     0
-end
-
+  end
 end
 
 puts calculate_bonus(2800, true) == 1400
