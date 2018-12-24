@@ -39,4 +39,6 @@ if comp_choice == "s"
 elsif comp_choice == "p"
   product = (1..user_num).reduce{|product, num| product * num}
   puts "The product of the integers between 1 and #{user_num} is #{product}."
+else
+  puts "Sorry, no workie."
 end
