@@ -36,5 +36,5 @@ def triangle(n)
   end
 end
 
-triangle(5)
+triangle(5  )
 triangle(9)

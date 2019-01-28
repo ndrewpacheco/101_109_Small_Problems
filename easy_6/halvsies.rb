@@ -18,10 +18,8 @@
 
 
 def halvsies(arr)
-  arr_size = arr.size
   arr_half_length = arr.size / 2
-
-
+  
   if arr.size.even?
     new_arr = arr.slice!(arr_half_length, arr_size)
   else
