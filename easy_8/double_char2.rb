@@ -15,9 +15,7 @@ def double_consonants(str)
   new_arr = []
   str_arr.each do |element|
     new_arr << element
-
     new_arr << element if element.match?(/[b-df-hj-np-tv-zB-DF-HJ-NP-TV-Z]/)
-
   end
   new_arr.join
 end
